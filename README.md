@@ -2,10 +2,10 @@
 ![image](https://user-images.githubusercontent.com/107488954/217531935-18fcdad9-733a-40f6-a9b1-649feb3e139a.png)
 
 ## Buy Anything from AnyWhere
-shopMart makes your shopping even simpler. No more hassle finding the products in diffrent websites get it all at one place - now shop from the comfort of your home, office or on the move.
+GeekBuying makes your shopping even simpler. No more hassle finding the products in diffrent websites get it all at one place - now shop from the comfort of your home, office or on the move.
 
 ## About!
-shopMart is a Ecomerce Website, which is built using React which gives this app a faster and optimized user expirence
+GeekBuying is a Ecomerce Website, which is built using React which gives this app a faster and optimized user expirence
 
 Geekbuying is the ultimate shopping hub for new releases covering smart home products like vacuum cleaners, fitness equipment like treadmills, top of the line home and office furniture, outdoor items including e-bikes, scooters, and other consumer goods like TV boxes, RC Toys and so much more! Shop for your favorite brands and products today!
 
@@ -83,8 +83,7 @@ its Fully Responsive. Daily Objects is a E-Commerce Website who deals with the c
 
 
 ## Team Members.
-1.	Mr. Alex Dislva 
-2.	Mr. Sandeep Prajapati
-3.	Mr. Vishal Raj.
+1.	Mr. Alex Dislva
+2.	Mr. Vishal Raj.
 
 
