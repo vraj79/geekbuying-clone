@@ -15,7 +15,7 @@ You can signup/login, and then arrive on a super detailed landing page, explore 
 
 <h1 align="center">GeekBuying ( Team Project )</h1>
 
-<h3 align="center">It's a MERN Stack E-commerce website with all the major functionalities</h3>
+<h3 align="center">It's a React E-commerce website with all the major functionalities</h3>
 
 <br />
 
@@ -35,52 +35,37 @@ You can signup/login, and then arrive on a super detailed landing page, explore 
 </p>
 
 
-<h4 align="center">Backend:</h4>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="nodejs" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="expressjs" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb" />
-
-</p>
-
-
 
 <h4 align="center">Deployed On:</h4>
 
 <p align="center">
 <a href="https://cool-maamoul-e2db46.netlify.app">
   <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="netlify" />
-</a>  
-<a href="">
-  <img src="https://img.shields.io/badge/render-5458F6?style=for-the-badge&logo=render&logoColor=white" alt="render" />
-  </a>
-</p>
-
-<h3 align="center"><a href="https://cool-maamoul-e2db46.netlify.app/"><strong>Want to see live preview »</strong></a></h3>
+</a>
+<h3 align="center"><a href="https://mygeekbuying.netlify.app/"><strong>Want to see live preview »</strong></a></h3>
 
 
 <br />
 
 <p align="center">
   <br />&#10023;
-  <a href="https://cool-maamoul-e2db46.netlify.app/">View Demo</a> &#10023;
+  <a href="https://mygeekbuying.netlify.app/">View Demo</a> &#10023;
   <a href="#Getting-Started">Getting Started</a> &#10023; 
   <a href="#Install">Installing</a> &#10023;
   <a href="#Contact">Author</a> &#10023;
 </p>
 
-It’s Group project where we've used MERN stack to build the dailyobjects.com with our creativity along with frontend and backend integration
+It’s Group project where we've used MERN stack to build the geekbuying.com with our creativity along with frontend and backend integration
 its Fully Responsive. Daily Objects is a E-Commerce Website who deals with the cases,covers & bags. Created Carts, Products, Users, Admin API ( Back-End ).
 
 ## Home Page
 ![image](https://user-images.githubusercontent.com/107488954/217531935-18fcdad9-733a-40f6-a9b1-649feb3e139a.png)
+
 ## Products Page
 ![image](https://user-images.githubusercontent.com/107488954/217532492-22e2a829-eba9-49eb-b0e8-7bdd791077ff.png)
 
 ## Login Page
 ![image](https://user-images.githubusercontent.com/107488954/217532630-a6d26ee2-d3cf-404b-984e-d95c8e0bf735.png)
-
 
 ## Team Members.
 1.	Mr. Alex Dislva
