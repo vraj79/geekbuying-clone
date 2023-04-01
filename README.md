@@ -39,7 +39,7 @@ You can signup/login, and then arrive on a super detailed landing page, explore 
 <h4 align="center">Deployed On:</h4>
 
 <p align="center">
-<a href="https://cool-maamoul-e2db46.netlify.app">
+<a href="https://mygeekbuying.netlify.app/">
   <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="netlify" />
 </a>
 <h3 align="center"><a href="https://mygeekbuying.netlify.app/"><strong>Want to see live preview »</strong></a></h3>
