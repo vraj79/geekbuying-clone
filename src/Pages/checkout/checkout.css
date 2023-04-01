@@ -1,0 +1,21 @@
+.step{
+    padding: 0.5rem 1rem;
+    background: #2874f9;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.rccs__card--unknown > div {
+    background-image: url(./6.jpeg);
+    border-radius: 10px;
+  }
+  
+  .credit-card{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+  

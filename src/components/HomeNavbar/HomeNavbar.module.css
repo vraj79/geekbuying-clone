@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Raleway:wght@300&display=swap");
+.navbar {
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid gray;
+  align-items: center;
+  background-color: #0066ff;
+  color:white
+}
+
+.navItems {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+.navItems span:hover {
+  color: #20a87e;
+}
+
+.navUser {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
