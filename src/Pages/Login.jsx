@@ -39,31 +39,31 @@ const Login = () => {
   const [validPwd, setValidPwd] = useState(false);
   const [pwdFocus, setPwdFocus] = useState(false);
 
-  const [errMsg, setErrMsg] = useState("");
+  // const [errMsg, setErrMsg] = useState("");
 
-  useEffect(() => {
-    setValidEmail(EMAIl_REGEX.test(email));
-  }, [email]);
+  // useEffect(() => {
+  //   setValidEmail(EMAIl_REGEX.test(email));
+  // }, [email]);
 
-  useEffect(() => {
-    setValidPwd(PWD_REGEX.test(pwd));
-  }, [pwd]);
+  // useEffect(() => {
+  //   setValidPwd(PWD_REGEX.test(pwd));
+  // }, [pwd]);
 
-  useEffect(() => {
-    setErrMsg("");
-  }, [email, pwd]);
+  // useEffect(() => {
+  //   setErrMsg("");
+  // }, [email, pwd]);
 
   const toast = useToast();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     // if button enabled with JS hack
-    const v1 = PWD_REGEX.test(pwd);
-    const v2 = EMAIl_REGEX.test(email);
-    if (!v1 || !v2) {
-      alert("Invalid Entry");
-      return;
-    }
+    // const v1 = PWD_REGEX.test(pwd);
+    // const v2 = EMAIl_REGEX.test(email);
+    // if (!v1 || !v2) {
+    //   alert("Invalid Entry");
+    //   return;
+    // }
     e.preventDefault();
     const data = {
       email: email,
@@ -118,17 +118,17 @@ const Login = () => {
                 onChange={(e) => setEmail(e.target.value)}
                 required
                 value={email}
-                aria-invalid={validEmail ? "false" : "true"}
+                // aria-invalid={validEmail ? "false" : "true"}
                 aria-describedby="emailnote"
                 onFocus={() => setEmailFocus(true)}
                 onBlur={() => setEmailFocus(false)}
               />
             </FromInputWrapper>
-            {emailFocus && email && !validEmail ? (
+            {/* {emailFocus && email && !validEmail ? (
               <label htmlFor="email">Please enter a valid email address</label>
             ) : (
               ""
-            )}
+            )} */}
           </div>
           <div>
             <FromPasswordInputWrapper>
@@ -149,11 +149,11 @@ const Login = () => {
                 <RxEyeClosed onClick={() => setCheckPass(true)} />
               )}
             </FromPasswordInputWrapper>
-            {pwdFocus && pwd && !validPwd ? (
+            {/* {pwdFocus && pwd && !validPwd ? (
               <label htmlFor="password">Please enter a valid password</label>
             ) : (
               ""
-            )}
+            )} */}
           </div>
           <CheckOut>
             <Left>
@@ -174,7 +174,7 @@ const Login = () => {
           </CheckOut>
           <SignInput id="submit" type="submit" />
           <Link to="/signup">
-            <Button id="New_Account">Create a new account</Button>
+            <Button colorScheme="whatsapp" id="New_Account">Create a new account</Button>
           </Link>
           <Orline>
             <span>or</span>

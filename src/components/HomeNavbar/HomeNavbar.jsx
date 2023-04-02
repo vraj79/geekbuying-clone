@@ -97,7 +97,7 @@ const HomeNavbar = () => {
             <div className={styles.navUser}>
               {/* <Input width={"max-content"} size={"xs"} type="text" /> */}
               <FiSearch size={25} />
-              {username===""?<ImUser size={25} onClick={() => navigate("/login")} />:<Button onClick={handleLogout} colorScheme="cyan" size={"xs"}>{username}</Button>}
+              {username===""?<ImUser size={25} onClick={() => navigate("/login")} />:<Button onClick={handleLogout} colorScheme="cyan" size={"xs"}>{username || localStorage.getItem("name")}</Button>}
               
               {cart.length===0 ? <HiOutlineShoppingBag
                 onClick={() => navigate("/cart")}
@@ -121,7 +121,7 @@ const HomeNavbar = () => {
                       style={{ textDecoration: "none" }}
                       id="sign"
                     >
-                      {username===""?(<Box color="#030202" fontWeight="600">SignIn</Box>):<Box onClick={handleLogout} color="#030202" fontWeight="600">{username}</Box>}
+                      {username===""?(<Box color="#030202" fontWeight="600">SignIn</Box>):<Box onClick={handleLogout} color="#030202" fontWeight="600">{username || localStorage.getItem("name")}</Box>}
                     </Link>
                     <Link
                       to="/cart"

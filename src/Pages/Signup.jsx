@@ -58,27 +58,27 @@ function Signup() {
     loadCaptchaEnginge(5);
   }, []);
 
-  useEffect(() => {
-    setValidName(USER_REGEX.test(user));
-  }, [user]);
+  // useEffect(() => {
+  //   setValidName(USER_REGEX.test(user));
+  // }, [user]);
 
-  useEffect(() => {
-    setValidEmail(EMAIl_REGEX.test(email));
-  }, [email]);
+  // useEffect(() => {
+  //   setValidEmail(EMAIl_REGEX.test(email));
+  // }, [email]);
 
-  useEffect(() => {
-    setValidPwd(PWD_REGEX.test(pwd));
-  }, [pwd]);
+  // useEffect(() => {
+  //   setValidPwd(PWD_REGEX.test(pwd));
+  // }, [pwd]);
 
-  useEffect(() => {
-    if (captcha.lenght == 5) {
-      setValidCaptcha(validateCaptcha(captcha));
-    }
-  }, [captcha]);
+  // useEffect(() => {
+  //   if (captcha.lenght == 5) {
+  //     setValidCaptcha(validateCaptcha(captcha));
+  //   }
+  // }, [captcha]);
 
-  useEffect(() => {
-    setErrMsg("");
-  }, [user, email, pwd, captcha]);
+  // useEffect(() => {
+  //   setErrMsg("");
+  // }, [user, email, pwd, captcha]);
 
   const toast=useToast()
 
@@ -100,7 +100,8 @@ function Signup() {
           .then(() => {
             const { displayName, uid } = res.user;
 
-            console.log(displayName, uid);
+            // console.log(displayName, uid);
+            localStorage.setItem("name",displayName);
             dispatch(signupsuccess({ displayName, uid }));
             const docData = {
               address: {
@@ -170,11 +171,11 @@ function Signup() {
                 onBlur={() => setUserFocus(false)}
               />
             </FromInputWrapper>
-            {userFocus && user && !validName ? (
+            {/* {userFocus && user && !validName ? (
               <label htmlFor="name">Please enter your name</label>
             ) : (
               ""
-            )}
+            )} */}
           </div>
           <div>
             <FromInputWrapper>
@@ -191,11 +192,11 @@ function Signup() {
                 onBlur={() => setEmailFocus(false)}
               />
             </FromInputWrapper>
-            {emailFocus && email && !validEmail ? (
+            {/* {emailFocus && email && !validEmail ? (
               <label htmlFor="email">Please enter a valid email address</label>
             ) : (
               ""
-            )}
+            )} */}
           </div>
           <div>
             <FromPasswordInputWrapper>
@@ -216,11 +217,11 @@ function Signup() {
                 <RxEyeClosed onClick={() => setCheckPass(true)} />
               )}
             </FromPasswordInputWrapper>
-            {pwdFocus && pwd && !validPwd ? (
+            {/* {pwdFocus && pwd && !validPwd ? (
               <label htmlFor="password">Please enter a valid password</label>
             ) : (
               ""
-            )}
+            )} */}
           </div>
           <CaptchaContainer>
             <div id="Captchadiv">
